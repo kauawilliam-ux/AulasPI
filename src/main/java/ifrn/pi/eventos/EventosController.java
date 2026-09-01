@@ -11,4 +11,9 @@ public class EventosController {
 		return "formEvento";
 	}
 
+	@RequestMapping("/eventos")
+	public String adicionar() {
+		return "Evento-adicionado";
+		
+	}
 }
