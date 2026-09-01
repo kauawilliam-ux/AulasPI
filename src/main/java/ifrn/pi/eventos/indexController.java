@@ -8,7 +8,7 @@ public class indexController {
 	@RequestMapping("/")
 	public String index() {
 		System.err.println("Chamou o método index");
-		return "home";
+		return "FormEvento";
 		
 	}
 }
